@@ -1,0 +1,19 @@
+.form__container {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: left;
+}
+
+.step__details {
+  width: 30%;
+  height: 20%;
+  margin: 2% 0 5% 10%;
+}
+
+.step__details > p {
+  padding-top: 10px;
+  color: rgb(109, 108, 108);
+}

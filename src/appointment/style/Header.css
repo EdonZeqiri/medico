@@ -1,0 +1,27 @@
+.header__appointment {
+  width: 100vw;
+  height: 10vh;
+  /* background-color: aliceblue; */
+  display: flex;
+}
+
+.header__appointment__left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+}
+.header__appointment__left > img {
+  margin-left: 20%;
+}
+
+.header__appointment__right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+  align-items: center;
+}
+.button_header {
+  background-color: red;
+}

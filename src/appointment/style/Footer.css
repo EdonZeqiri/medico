@@ -1,0 +1,13 @@
+.footer__appointment {
+  width: 100%;
+  height: 10vh;
+}
+
+.footer__appointment__left {
+  width: 20%;
+  height: 100%;
+  margin-left: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

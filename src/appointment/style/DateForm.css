@@ -1,0 +1,137 @@
+.date__form {
+  width: 29vw;
+  height: 60vh;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.date__form__fields {
+  width: 90%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  border: 1px solid #e9ebef;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.06);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.06);
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.06);
+  padding: 20px;
+}
+
+.date__form__fields__top {
+  width: 100%;
+  height: 20%;
+  display: flex;
+}
+.date__form__fields__top__left {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.date__form__fields__top__middle {
+  width: 40%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+}
+.date__form__fields__top__right {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.date__form__fields__top > button {
+  height: 50px;
+}
+
+.date__form__fields__bottom {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+.date__picker {
+  width: 100%;
+}
+
+.date__form__fields__end {
+  width: 90%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+}
+.date__form__fields__bottom__right {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: left;
+}
+
+.button__active {
+  width: 40%;
+  height: 56px;
+  background-color: #33de04;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  margin-right: 8px;
+  align-items: center;
+}
+.button__passive {
+  width: 40%;
+  height: 56px;
+  background-color: #ffffff;
+  color: #959698;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #e9ebef;
+  cursor: pointer;
+  margin-right: 8px;
+  font-weight: 500;
+}
+p {
+  font-weight: 500;
+}
+
+.button__end__date {
+  height: 60px;
+  width: 90%;
+}
+
+.under__paragraph {
+  font-size: 12px;
+  color: #28272e;
+}
+
+.date__form__fields__top__middle > p {
+  font-size: 12px;
+  color: #28272e;
+}
+.date__form__fields__top__middle > h3 {
+  font-size: 16px;
+  color: #28272e;
+}
+
+.date__form__fields__top__right > button {
+  border-radius: 18px;
+  width: 70%;
+  outline: none;
+  border: 1px solid #e9ebef;
+  padding: 8px;
+  margin: 0;
+  cursor: pointer;
+}

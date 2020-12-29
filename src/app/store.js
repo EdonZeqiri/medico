@@ -1,8 +1,8 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import patientFormReducer from '../features/counter/patientFormSlice'
 
 export default configureStore({
   reducer: {
-    counter: counterReducer,
+    patientForm:patientFormReducer
   },
 });

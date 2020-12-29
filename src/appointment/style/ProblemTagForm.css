@@ -1,0 +1,76 @@
+.tags__input {
+  display: flex;
+  align-self: center;
+  min-height: 48px;
+  padding: 0 8px;
+  border: 1.5px solid #c5c5c5;
+  border-radius: 4px;
+}
+
+.enter__text {
+  flex: 1;
+  border: none;
+  outline: none;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+ul li {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  text-align: center;
+  background-color: #33de04;
+  border-radius: 4px;
+  color: white;
+  list-style: none;
+  margin: 5px;
+  padding: 10px;
+}
+
+ul li button {
+  display: flex;
+  align-items: center;
+  background: white;
+  border: none;
+  color: black;
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  font-size: 12px;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  outline: none;
+  transform: rotate(45deg);
+}
+.x {
+  margin: 0;
+  margin-left: 2px;
+}
+.input__type {
+  align-self: center;
+  width: 100%;
+}
+
+.input__type > input {
+  width: 100%;
+  height: 45px;
+  border: 1.5px solid #c5c5c5;
+  border: none;
+}
+
+ul .input__type {
+  background-color: none;
+  flex-grow: 1;
+}
+
+li {
+  list-style: none;
+}

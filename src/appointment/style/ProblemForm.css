@@ -1,0 +1,87 @@
+.problem__form {
+  width: 29vw;
+  height: 60vh;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.problem__form__fields {
+  width: 90%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: white;
+  border: 1px solid #e9ebef;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.06);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.06);
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.06);
+  padding: 20px;
+}
+
+.problem__form__fields__top {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.problem__form__fields__top > button {
+  height: 50px;
+}
+
+.problem__form__fields__bottom {
+  width: 100%;
+  height: 40%;
+  display: flex;
+}
+.problem__form__fields__bottom__right {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: left;
+}
+
+.button__active {
+  width: 40%;
+  height: 56px;
+  background-color: #33de04;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  margin-right: 8px;
+  align-items: center;
+}
+.button__passive {
+  width: 40%;
+  height: 56px;
+  background-color: #ffffff;
+  color: #959698;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #e9ebef;
+  cursor: pointer;
+  margin-right: 8px;
+  font-weight: 500;
+}
+p {
+  font-weight: 500;
+}
+
+.button__end {
+  height: 60px;
+}
+
+.under__paragraph {
+  font-size: 12px;
+  color: #28272e;
+}

@@ -1,0 +1,73 @@
+.doctors__info {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  background-color: rgb(242, 242, 242);
+  margin-top: 10px;
+  position: relative;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.doctors__info__left {
+  width: 50%;
+  height: 62px;
+  display: flex;
+}
+.doctors__info__right {
+  width: 50%;
+  height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.circle {
+  width: 40%;
+  height: 62px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  position: center;
+}
+
+.doctors__info__left__name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+.doctors__info__left__name > h4 {
+  font-size: 14px;
+  margin-left: 8px;
+}
+
+.doctors__info__left__name > p {
+  font-size: 10px;
+  margin-left: 8px;
+  color: #28272e;
+}
+
+.doctors__info__right > p {
+  font-size: 10px;
+  color: #28272e;
+}
+button {
+  margin-top: 20px;
+}
+
+.field__active {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  background-color: #dff3dc;
+  margin-top: 10px;
+  position: relative;
+  cursor: pointer;
+  border-radius: 4px;
+}

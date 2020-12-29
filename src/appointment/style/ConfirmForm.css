@@ -1,0 +1,123 @@
+.confirm__form {
+  width: 29vw;
+  height: 60vh;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.confirm__form__fields {
+  width: 90%;
+  height: 95%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  border: 1px solid #e9ebef;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.06);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.06);
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.06);
+  padding: 20px;
+}
+.confirm__form__fields__section {
+  width: 98%;
+  height: 8vh;
+  display: flex;
+  border-bottom: 1px solid #e9ebef;
+}
+
+.confirm__form__fields__section__left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.confirm__form__fields__section__left > p {
+  color: #28272e;
+  font-size: 12px;
+}
+
+.confirm__form__fields__section__right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.confirm__form__fields__section__right > button {
+  border-radius: 18px;
+  width: 70%;
+  outline: none;
+  border: 1px solid #e9ebef;
+  padding: 8px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.confirm__form__fields__section3__left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+}
+
+.confirm__form__fields__section3__left__info {
+  padding-left: 8px;
+}
+
+.confirm__form__fields__section3__left__info > p {
+  color: #28272e;
+  font-size: 12px;
+}
+
+.confirm__form__fields__section4 {
+  width: 98%;
+  height: 8vh;
+  display: flex;
+}
+
+.confirm__form__fields__section4__right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+.confirm__form__fields__section4__right > p {
+  color: #28272e;
+  font-size: 12px;
+}
+
+.age___gender {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+.age___gender > p {
+  color: #28272e;
+  font-size: 12px;
+}
+.email__input {
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+}
+.button__end__form {
+  height: 60px;
+  width: 98%;
+}
+
+h4 {
+  font-size: 15px;
+}
+.problem__tags {
+  display: flex;
+}
+.problem__tags > h4 {
+  padding-right: 5px;
+}
