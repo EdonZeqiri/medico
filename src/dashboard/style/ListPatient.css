@@ -1,0 +1,92 @@
+.list__patient__container {
+  width: 92%;
+  padding-top: 20px;
+}
+
+.patient__card {
+  width: 300px;
+  height: 200px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.patient__top__conatiner {
+  width: 100%;
+  height: 60px;
+  display: flex;
+}
+.image__name {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.image__name > img {
+  width: 60px;
+}
+.name__age {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.name__age > h4 {
+  font-size: 18px;
+}
+.gender__age > p {
+  font-size: 14px;
+  color: #8a8484;
+}
+.gender__age {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+}
+.patient__id {
+  width: 40%;
+  height: 100%;
+  padding: 5px 5px 0 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.patient__id > p {
+  font-size: 14px;
+  color: #8a8484;
+}
+
+.patient__center__container {
+  width: 100%;
+  height: 40px;
+  display: flex;
+}
+.center__left {
+  width: 60%;
+  height: 100%;
+}
+.center__left > p {
+  font-size: 14px;
+}
+.center__right {
+  width: 50%;
+  height: 100%;
+}
+.center__right > p {
+  font-size: 14px;
+}
+.patient__end__conatiner {
+  width: 100%;
+  height: 40px;
+  padding-bottom: 5px;
+}
+.button__patient {
+  width: 100%;
+  height: 100%;
+}
+.button__patient :hover {
+  background-color: #3056f5;
+  color: white;
+}

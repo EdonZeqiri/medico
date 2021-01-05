@@ -1,0 +1,245 @@
+.list__home__container {
+  width: 90%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.list__home__top__container > h3 {
+  margin-bottom: 30px;
+}
+.list__home__top__cards__container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home__top__card {
+  width: 150px;
+  height: 100px;
+  border-radius: 4px;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+}
+.home__top__card > h1 {
+  padding-top: 8px;
+}
+.home__top__card > p {
+  color: grey;
+  font-size: 14px;
+}
+
+.list__home__center__container {
+  width: 100%;
+  height: 78%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list__home__center__container__left {
+  width: 38%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.list__home__center__left {
+  width: 100%;
+  height: 93%;
+  overflow: scroll;
+}
+.patient__field {
+  height: 100px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-bottom: 0.2px solid #4f50542d;
+}
+.field__top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.field__top > p {
+  font-size: 14px;
+  color: #313339;
+}
+.field__top > h2 {
+  font-size: 22px;
+}
+.field__center {
+  width: 55%;
+  display: flex;
+  margin-top: 4px;
+  justify-content: space-between;
+}
+.field__center > p {
+  font-size: 14px;
+  color: #313339;
+}
+.field__end {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+}
+.field__end > button {
+  width: 150px;
+  height: 35px;
+  border-radius: 20px;
+  border: none;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+}
+
+.call__patient {
+  background-color: #3056f5;
+  color: white;
+  outline: none;
+  cursor: pointer;
+}
+
+.list__home__center__right {
+  width: 60%;
+  height: 100%;
+}
+
+.home__center__right__top {
+  width: 100%;
+  height: 53%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.graph__container {
+  width: 100%;
+  height: 87%;
+  background-color: white;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home__center__right__end {
+  width: 100%;
+  height: 44%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home__center__right__end__doctors__container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.home__center__right__end__doctors {
+  width: 94%;
+  height: 85%;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.home__center__right__end__expense {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.home__center__right__end__graph {
+  width: 100%;
+  height: 85%;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.graph__container {
+  display: flex;
+  flex-direction: column;
+}
+.info__chart {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+}
+.costumers {
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+}
+.costumers > p {
+  font-size: 14px;
+  color: #6d7073;
+}
+.info__chart > p {
+  font-size: 14px;
+  color: #6d7073;
+}
+.doctors {
+  width: 96%;
+  height: 27%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  border-bottom: 0.2px solid #4f50542d;
+}
+.doctors > img {
+  width: 50px;
+  height: 50px;
+}
+.doctors__nameinfo {
+  margin-left: 10px;
+  height: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.doctors__nameinfo > h4 {
+  font-size: 20px;
+}
+.doctors__nameinfo > p {
+  font-size: 12px;
+}
+
+.home__center__right__end__doctors {
+  overflow: scroll;
+}
+
+.home__center__right__end__graph {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.home__center__right__end__graph > p {
+  position: absolute;
+  color: white;
+  font-weight: bolder;
+  font-size: 18px;
+  margin-bottom: 36px;
+}
+.home__center__right__end__graph > img {
+  width: 180px;
+}
+.char__info {
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+}
+.char__info > p {
+  font-size: 12px;
+  padding-right: 10px;
+}

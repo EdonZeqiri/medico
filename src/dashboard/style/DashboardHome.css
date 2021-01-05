@@ -1,0 +1,6 @@
+.dashboard__home {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #f2f4fa;
+}

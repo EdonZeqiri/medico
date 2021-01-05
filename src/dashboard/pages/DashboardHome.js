@@ -1,12 +1,15 @@
-import React from 'react'
-import Dashboard from '../component/Dashboard'
+import React from "react";
+import Menu from "../component/Menu";
+import List from "../component/List";
+import "../style/DashboardHome.css";
 
 function DashboardHome() {
-    return (
-        <div>
-            <Dashboard/>
-        </div>
-    )
+  return (
+    <div className="dashboard__home">
+      <Menu />
+      <List />
+    </div>
+  );
 }
 
-export default DashboardHome
+export default DashboardHome;
